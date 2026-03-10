@@ -1,0 +1,14 @@
+# Core YOLO and Deep Learning
+ultralytics
+torch
+torchvision
+
+# Image processing and Visualization
+opencv-python
+matplotlib
+numpy
+pandas
+
+# Tools for the lab
+roboflow
+ipython

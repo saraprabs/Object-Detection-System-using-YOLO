@@ -1,0 +1,7 @@
+path: ./data  # root dataset dir
+train: train/images
+val: val/images
+
+# Classes
+nc: 3 
+names: ['red_cup', 'blue_bottle', 'phone']
