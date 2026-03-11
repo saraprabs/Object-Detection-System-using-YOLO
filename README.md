@@ -76,9 +76,8 @@ pip install ultralytics opencv-python matplotlib roboflow
 * OpenCV
 * Roboflow
 * Matplotlib
-
----
+```
 
 # 📄 License
----
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
