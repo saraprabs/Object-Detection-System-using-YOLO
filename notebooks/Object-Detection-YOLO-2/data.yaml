@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Mobile', 'Red_cup', 'blue_bottle']
+
+roboflow:
+  workspace: saranyas-workspace-wv1kd
+  project: object-detection-yolo-7td8i
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saranyas-workspace-wv1kd/object-detection-yolo-7td8i/dataset/2

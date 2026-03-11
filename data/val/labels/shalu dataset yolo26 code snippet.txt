@@ -1,0 +1,10 @@
+Paste this snippet into a notebook from our model library to download and unzip your dataset:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="j477ebLsOvfw3f2TlyW6")
+project = rf.workspace("saranyas-workspace-wv1kd").project("object-detection-yolo-7td8i")
+version = project.version(2)
+dataset = version.download("yolo26")
+                
