@@ -62,6 +62,7 @@ Follow these steps to run the project locally.
 
 ## 1️⃣ Clone the Repository
 git clone https://github.com/saraprabs/Object-Detection-System-using-YOLO.git
+
 cd Object-Detection-System-using-YOLO
 
 ## 2️⃣ Install Dependencies
