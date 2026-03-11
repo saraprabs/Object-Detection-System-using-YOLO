@@ -76,6 +76,30 @@ pip install ultralytics opencv-python matplotlib roboflow
 * OpenCV
 * Roboflow
 * Matplotlib
+
+## 📝 Project Description
+
+This repository contains a custom Deep Learning-based Object Detection System trained to identify and localize three everyday objects: Red Cups, Blue Bottles, and Mobile Phones.
+
+The system utilizes the YOLO (You Only Look Once) architecture, specifically optimized for real-time inference on edge devices and standard CPUs. By training on a custom-curated dataset, the model achieves high precision in varied indoor environments, making it suitable for IoT integration, inventory tracking, or smart home applications.
+
+## 🏗️ System Architecture & Functioning
+
+1. **Data Pipeline: Preprocessing and Augmentation** All input images are auto-oriented and resized to 640 x640 pixels to maintain a consistent input layer for the neural network. To improve model generalization, Horizontal Flipping was applied, effectively doubling the training variety for symmetrical objects like bottles and cups.
+
+2. **Training Logic:** Built on ultralytics YOLO engine.
+
+3. **Inference:** Pulls data from a local webcam or video file via OpenCV. The .pt weights analyze the frame at a confidence threshold of 0.34. Non-Maximum Suppression (NMS) removes duplicate detections. Results are rendered in real-time and saved to .avi format with unique timestamps.
+
+## Model Performance
+
+| Metric | Value | Interpretation |
+| ---------- | ---------- | ------------ |
+| mAP@50 | 67.3% | High reliability in standard detection tasks. |
+| Precision | ~70% | Accurate identification with minimal false positives. |
+| Recall | ~60% | Effective at finding objects even in cluttered frames. |
+| F1-Score Peak | 0.65| Balanced performance at 0.338 confidence. |
+
 ```
 
 # 📄 License
