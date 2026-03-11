@@ -1,8 +1,8 @@
 # 🎯 Object Detection System using YOLO 
-The project is develop a real time object detection model using YOLO to detect everyday objects.  
+The project is developed to create a real-time object detection model using YOLO to detect everyday objects.  
 
 ## 📌 Project Overview  
-The goal of the project is to specifically detect 3 classes objects `Red Cup`, `Blue bottle`, and `Mobile`.  
+The goal of the project is to specifically detect 3 object classes `Red Cup`, `Blue bottle`, and `Mobile`.  
 | Class | Label |
 |-------|-------|
 |  Red Cup | `Red_cup` |
@@ -80,4 +80,5 @@ pip install ultralytics opencv-python matplotlib roboflow
 ---
 
 # 📄 License
+---
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
