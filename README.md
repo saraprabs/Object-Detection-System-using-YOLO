@@ -91,7 +91,7 @@ The system utilizes the YOLO (You Only Look Once) architecture, specifically opt
 
 3. **Inference:** Pulls data from a local webcam or video file via OpenCV. The .pt weights analyze the frame at a confidence threshold of 0.34. Non-Maximum Suppression (NMS) removes duplicate detections. Results are rendered in real-time and saved to .avi format with unique timestamps.
 
-## Model Performance
+## 📊Model Performance
 
 | Metric | Value | Interpretation |
 | ---------- | ---------- | ------------ |
