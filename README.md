@@ -25,4 +25,33 @@ Following strategies were used to achieve the goal:
 **Augmentations** : Flip(horizontal)  
 **Train / Val / Test split**: 87% / 11% / 2%  
 
+## 📁 Project Structure
+
+Object-Detection-System-using-YOLO/
+├── Model/
+|   ├── Object-Detection-YOLO-2-DATA
+│   │     ├── train/
+│   │     │   ├── images/
+│   │     │   └── labels/
+│   │     ├── valid/
+│   │     │   ├── images/
+│   │     │   └── labels/
+│   │     ├── test/
+│   │     │   ├── images/
+│   │     │   └── labels/
+|   │     ├── data.yaml
+|   │
+|   ├── runs/
+│   │    └── detect/
+|   │          └──train/ 
+│   │              └── weights/
+│   │                ├── best.pt
+│   │                └── last.pt
+|   │
+|   ├── training.ipynb
+|
+├── scripts/
+|    ├── detect_realtime.py (using webcam)
+|    ├── model_predict.py (for image)
+└── README.md
 
