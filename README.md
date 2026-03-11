@@ -64,7 +64,8 @@ Follow these steps to run the project locally.
 git clone  https://github.com/saraprabs/Object-Detection-System-using-YOLO.git
 
 ## 2️⃣ Install Dependencies
- pip install ultralytics opencv-python matplotlib roboflow
+pip install ultralytics opencv-python matplotlib roboflow
+
 ---
 
 # 🛠️ Technologies Used
