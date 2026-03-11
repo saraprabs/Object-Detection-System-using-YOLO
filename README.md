@@ -55,4 +55,12 @@ Object-Detection-System-using-YOLO/
 |    ├── model_predict.py (for image)
 └── README.md
 ```
+# ⚙️ Installation & Setup
 
+Follow these steps to run the project locally.
+
+## 1️⃣ Clone the Repository
+git clone  https://github.com/saraprabs/Object-Detection-System-using-YOLO.git
+
+## 2️⃣ Install Dependencies
+pip install ultralytics opencv-python matplotlib roboflow
