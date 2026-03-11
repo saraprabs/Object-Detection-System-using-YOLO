@@ -2,11 +2,11 @@ from ultralytics import YOLO
 from collections import Counter
 
 # 1. Load your trained model
-model = YOLO(r"C:\Users\Elev\YOLO_Object_Detection - Copy\notebooks\runs\detect\train\weights\best.pt")
+model = YOLO(r"C:\Users\Elev\YOLO_Object_Detection\notebooks\runs\detect\train\weights\best.pt")
 
 # Run this to process a video file and save the result
 results = model.predict(
-    source="C:\\Users\\Elev\\YOLO_Object_Detection - Copy\\scripts\\detection_20260311-104100.avi",
+    source="C:\\Users\\Elev\\YOLO_Object_Detection\\scripts\\detection_20260311-104100.avi",
     save=True, 
     conf=0.25,
     stream=True

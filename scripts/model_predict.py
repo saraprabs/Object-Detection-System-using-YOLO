@@ -6,7 +6,7 @@ import cv2
 from ultralytics import YOLO
 
 # Define the path clearly
-model_path = r"C:\Users\Elev\YOLO_Object_Detection - Copy\notebooks\runs\detect\train\weights\best.pt"
+model_path = r"C:\Users\Elev\YOLO_Object_Detection\notebooks\runs\detect\train\weights\best.pt"
 
 # Verification: Check if the file actually exists before loading
 if os.path.exists(model_path):

@@ -5,7 +5,7 @@ from datetime import datetime # Import for unique filenames
 
 
 # 1. Load your trained model
-model = YOLO(r"C:\Users\Elev\YOLO_Object_Detection - Copy\notebooks\runs\detect\train\weights\best.pt")
+model = YOLO(r"C:\Users\Elev\YOLO_Object_Detection\notebooks\runs\detect\train\weights\best.pt")
 
 # 2. Open the webcam (0 is usually the default camera)
 cap = cv2.VideoCapture(0)
