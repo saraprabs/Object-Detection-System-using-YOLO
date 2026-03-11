@@ -1,3 +1,4 @@
+# Use trained model to make predictions on an image and plot the results
 import os
 import matplotlib.pyplot as plt
 import cv2

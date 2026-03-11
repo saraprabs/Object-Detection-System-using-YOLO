@@ -1,3 +1,4 @@
+# This script uses a trained YOLO model to perform real-time object detection on webcam feed.
 from ultralytics import YOLO
 import cv2
 from datetime import datetime # Import for unique filenames
