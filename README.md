@@ -26,7 +26,7 @@ Following strategies were used to achieve the goal:
 **Train / Val / Test split**: 87% / 11% / 2%  
 
 ## 📁 Project Structure
-
+``` bash
 Object-Detection-System-using-YOLO/
 ├── Model/
 |   ├── Object-Detection-YOLO-2-DATA
@@ -54,4 +54,5 @@ Object-Detection-System-using-YOLO/
 |    ├── detect_realtime.py (using webcam)
 |    ├── model_predict.py (for image)
 └── README.md
+```
 
