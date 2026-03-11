@@ -25,5 +25,4 @@ Following strategies were used to achieve the goal:
 **Augmentations** : Flip(horizontal)  
 **Train / Val / Test split**: 87% / 11% / 2%  
 
-## ⚙️ Setup & Installation
 
